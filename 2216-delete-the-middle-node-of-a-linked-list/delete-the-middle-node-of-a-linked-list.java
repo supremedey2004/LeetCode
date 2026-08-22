@@ -4,6 +4,7 @@ class Solution {
         if (head.next == null) {
             return null;
         }
+        
         ListNode slow=head;
         ListNode fast=head;
         ListNode temp=head;
