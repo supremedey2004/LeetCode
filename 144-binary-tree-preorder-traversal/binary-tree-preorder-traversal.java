@@ -1,5 +1,5 @@
 class Solution {
-    static ArrayList<Integer> arr=new ArrayList<>();
+    static ArrayList<Integer>arr;
 
     public void preorder(TreeNode root){
         if(root==null) return;
@@ -8,7 +8,7 @@ class Solution {
         preorder(root.right);
     }
     public List<Integer> preorderTraversal(TreeNode root) {
-        arr.clear();
+     arr=new ArrayList<>();
         preorder(root);
         return arr;
         
