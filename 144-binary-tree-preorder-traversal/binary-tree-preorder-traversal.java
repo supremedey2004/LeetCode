@@ -8,7 +8,7 @@ class Solution {
         preorder(root.right);
     }
     public List<Integer> preorderTraversal(TreeNode root) {
-     arr=new ArrayList<>();
+        arr=new ArrayList<>();
         preorder(root);
         return arr;
         
